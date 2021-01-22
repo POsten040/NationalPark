@@ -8,7 +8,7 @@ namespace NationalParkApi.Models
             : base(options)
         {
         }
-
+    
         public DbSet<NationalPark> NationalParks { get; set; }
     }
 }

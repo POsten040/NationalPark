@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\patri\\desktop\\nationalpark.solution\\NationalParkApi\\nationalparkapi.csproj",
+  "FilePath": "c:\\Users\\patri\\desktop\\nationalpark.solution\\NationalParkApi\\NationalParkApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -1869,7 +1869,7 @@
     ],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": "nationalparkapi",
+  "RootNamespace": "NationalParkApi",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

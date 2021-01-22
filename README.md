@@ -23,7 +23,7 @@ Install dotnet script
 * In the terminal, run this command `dotnet tool install -g dotnet-script`
 
 Open by Downloading or Cloning
-* From this link <https://github.com/POsten040/NationalParkApi>
+* From this link <https://github.com/POsten040/ParkServiceApi>
 * Download this repository to your computer by clicking the green Code button and 'Download Zip'
 * Or clone the repository with `git clone `
 
@@ -42,7 +42,7 @@ AppSettings
 </details>
 
 ## Launching the Application
-* Navigate to the NationalPark.Soliution/NationalParkApi directory and type `dotnet restore` into the terminal
+* Navigate to the ParkService.Soliution/ParkServiceApi directory and type `dotnet restore` into the terminal
 * Then, in the same project folder, type `dotnet ef database update` to create the database. 
 * To open in your browser type `dotnet run` 
 

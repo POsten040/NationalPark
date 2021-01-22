@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\nationalparkapi.csproj": {}
+    "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\NationalParkApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\nationalparkapi.csproj": {
+    "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\NationalParkApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\nationalparkapi.csproj",
-        "projectName": "nationalparkapi",
-        "projectPath": "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\nationalparkapi.csproj",
+        "projectUniqueName": "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\NationalParkApi.csproj",
+        "projectName": "NationalParkApi",
+        "projectPath": "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\NationalParkApi.csproj",
         "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\patri\\desktop\\nationalpark.solution\\nationalparkapi\\obj\\",
         "projectStyle": "PackageReference",
