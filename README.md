@@ -47,7 +47,26 @@ AppSettings
 * To open in your browser type `dotnet run` 
 
 ## Api Documentation
-* 
+* View Swagger Docs by running the application and going to this URL" `http://localhost:5000/swagger/index.html`
+* EndPoints Structure:
+  - GET /api/{component} 
+    - returns all components
+  - GET /api/{component}/?{Property} = {search string} 
+    - returns specific components based on search string
+  - GET /api/{component}/{id}
+    - return specific component based on id 
+  - POST /api/{component}
+    - create new component
+  - PUT /api/{component}/{id}
+    - alters specific component based on id
+  - DELET /api/{component}/{id}
+    - removes component from database
+
+| Example Query                                              | Type Of Request | Expected OutPut                                                                                                                                                                                                      |
+|------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `https://localhost:5000/api/nationalparks/1`           | GET             | ` {     "nationalParkId": 1,     "name": "YellowStone",     "region": "Mid-West" } `                                                                                                                           |
+| `http://localhost:5000/api/nationalparks/?Region=East-Coast` | GET             | `[     {         "nationalParkId": 3,         "name": "Blue Ridge",         "region": "East-Coast"     },     {         "nationalParkId": 4,         "name": "Patrick's Park",         "region": "East-Coast"     } ]` |
+|                                                            |                 |                                                                                                                                                                                                                      |
 
 ## User Stories
 <details>
