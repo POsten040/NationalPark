@@ -47,7 +47,9 @@ AppSettings
 * To open in your browser type `dotnet run` 
 
 ## Api Documentation
-* View Swagger Docs by running the application and going to this URL" `http://localhost:5000/swagger/index.html`
+* View Swagger Docs by running the application and going to this URL: `http://localhost:5000/swagger/index.html`
+  - See [Swagger](https://swagger.io/tools/swagger-ui/) for more info on using the Swagger UI
+<br>
 * EndPoints Structure:
   - GET /api/{component} 
     - returns all components

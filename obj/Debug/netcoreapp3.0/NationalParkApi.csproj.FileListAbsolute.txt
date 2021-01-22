@@ -1,0 +1,5 @@
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp3.0\NationalParkApi.csprojAssemblyReference.cache
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp3.0\NationalParkApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp3.0\NationalParkApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp3.0\NationalParkApi.AssemblyInfoInputs.cache
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp3.0\NationalParkApi.AssemblyInfo.cs

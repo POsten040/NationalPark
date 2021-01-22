@@ -1,5 +1,4 @@
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.csprojAssemblyReference.cache
-C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.csproj.CoreCompileInputs.cache
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.RazorAssemblyInfo.cache
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.RazorAssemblyInfo.cs
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.AssemblyInfoInputs.cache
@@ -12,3 +11,6 @@ C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\bin\Debug\netcoreap
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.RazorTargetAssemblyInfo.cache
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.dll
 C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\obj\Debug\netcoreapp2.2\NationalParkApi.pdb
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\patri\desktop\nationalpark.solution\nationalparkapi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
