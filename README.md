@@ -69,7 +69,7 @@ AppSettings
 | `https://localhost:5000/api/nationalparks/1`           | GET             | ` {     "nationalParkId": 1,     "name": "YellowStone",     "region": "Mid-West" } `                                                                                                                           |
 | `http://localhost:5000/api/nationalparks/?Region=East-Coast` | GET             | `[     {         "nationalParkId": 3,         "name": "Blue Ridge",         "region": "East-Coast"     },     {         "nationalParkId": 4,         "name": "Patrick's Park",         "region": "East-Coast"     } ]` |
 |                                                            |                 |                                                                                                                                                                                                                      |
-
+* NOTE - CORS in enable in this Api and accepts cross origin resource sharing with one specific URL ""http://www.contoso.com". This was for learning purposes and should not affect the normal operation of the Api.
 ## User Stories
 <details>
 
@@ -94,6 +94,7 @@ Patrick Osten at <posten.coding@gmail.com>
 * MySql Workbench
 * .NET Core
 * Swagger
+* CORS
 
 ### License
 
