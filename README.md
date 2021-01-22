@@ -19,7 +19,7 @@ Software Requirements
 * <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a>
 * <a href="https://www.postman.com/downloads/">Postman</a> (Optional)
 
-Install dotnet script
+Install Dotnet Script
 * In the terminal, run this command `dotnet tool install -g dotnet-script`
 
 Open by Downloading or Cloning
