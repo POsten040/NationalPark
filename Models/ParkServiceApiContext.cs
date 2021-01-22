@@ -16,9 +16,9 @@ namespace NationalParkApi.Models
         builder.Entity<NationalPark>()
             .HasData(
                 new NationalPark { NationalParkId = 1, Name = "YellowStone", Region = "Mid-West" },
-                new NationalPark { NationalParkId = 2, Name = "Zion", Region = "South-West" },
-                new NationalPark { NationalParkId = 3, Name = "Blue Ridge", Region = "East Coast" },
-                new NationalPark { NationalParkId = 4, Name = "Patrick's Park", Region = "Moon" }
+                new NationalPark { NationalParkId = 2, Name = "Zion", Region = "Mid-West" },
+                new NationalPark { NationalParkId = 3, Name = "Blue Ridge", Region = "East-Coast" },
+                new NationalPark { NationalParkId = 4, Name = "Patrick's Park", Region = "East-Coast" }
             );
         builder.Entity<StatePark>()
             .HasData(
@@ -27,7 +27,6 @@ namespace NationalParkApi.Models
                 new StatePark { StateParkId = 3, Name = "Bear Creek", Free = false },
                 new StatePark { StateParkId = 4, Name = "Patrick's Other Park", Free = false }
             );
-        
         }
     }
 }
