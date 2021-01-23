@@ -6,7 +6,9 @@
 
 ## Description
 - This application was made as part of the Epicodus Coding bootcamp coursework.
-- It allows users to make api calls that return a list of national parks with full CRUD functionality.
+- It allows users to make api calls that return a list from a database of national parks or state parks with full CRUD functionality.
+
+!["Picture of pine trees"](ReadMeAssets/pines.jpg)
 
 ## Setup/Installation Requirements
 
@@ -64,6 +66,9 @@ AppSettings
   - DELETE /api/{component}/{id}
     - removes component from database
 
+<details>
+<summary><strong>Specific Endpoints</strong></summary>
+
 * EndPoints for National Parks:
   - GET /api/nationalparks 
     - returns all national parks
@@ -94,6 +99,7 @@ AppSettings
   - DELETE /api/stateparks/{id}
     - removes state park from database based on id
     <br>
+</details>
 
 | Example Query                                              | Type Of Request | Expected OutPut                                                                                                                                                                                                      |
 |------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
