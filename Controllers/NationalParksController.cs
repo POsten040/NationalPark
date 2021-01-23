@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NationalParkApi.Models;
 
-
 namespace NationalParkApi.Controllers
 {
   [ApiVersion("1.0")]
@@ -13,12 +12,10 @@ namespace NationalParkApi.Controllers
   public class NationalParksController : ControllerBase
   {
     private NationalParkApiContext _db;
-
     public NationalParksController(NationalParkApiContext db)
     {
       _db = db;
     }
-
     // GET api/nationalparks
     [HttpGet]
     public ActionResult<IEnumerable<NationalPark>> Get(string region, string name)
@@ -34,7 +31,6 @@ namespace NationalParkApi.Controllers
       }
       return query.ToList();
     }
-
     // POST api/nationalparks
     [HttpPost]
     public void Post([FromBody] NationalPark nationalPark)

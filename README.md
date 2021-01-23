@@ -61,8 +61,39 @@ AppSettings
     - create new component
   - PUT /api/{component}/{id}
     - alters specific component based on id
-  - DELET /api/{component}/{id}
+  - DELETE /api/{component}/{id}
     - removes component from database
+
+* EndPoints for National Parks:
+  - GET /api/nationalparks 
+    - returns all national parks
+  - GET /api/nationalparks/?Region = {search string} 
+    - returns specific national parks based on region
+  - GET /api/nationalparks/?Name = {search string} 
+    - returns specific national parks based on name
+  - GET /api/nationalparks/{id}
+    - return specific national parks based on id 
+  - POST /api/nationalparks
+    - create new national parks
+  - PUT /api/nationalparks/{id}
+    - alters specific national parks based on id
+  - DELETE /api/nationalparks/{id}
+    - removes national park from database based on id
+
+* EndPoints for State Parks:
+  - GET /api/stateparks 
+    - returns all state parks
+  - GET /api/stateparks/?Name = {search string} 
+    - returns specific state parks based on Name
+  - GET /api/stateparks/{id}
+    - return specific state parks based on id 
+  - POST /api/stateparks
+    - create new state parks
+  - PUT /api/stateparks/{id}
+    - alters specific state parks based on id
+  - DELETE /api/stateparks/{id}
+    - removes state park from database based on id
+    <br>
 
 | Example Query                                              | Type Of Request | Expected OutPut                                                                                                                                                                                                      |
 |------------------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

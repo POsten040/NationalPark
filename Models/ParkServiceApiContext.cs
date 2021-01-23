@@ -7,8 +7,7 @@ namespace NationalParkApi.Models
         public NationalParkApiContext(DbContextOptions<NationalParkApiContext> options)
             : base(options)
         {
-        }
-    
+        }    
         public DbSet<NationalPark> NationalParks { get; set; }
         public DbSet<StatePark> StateParks { get; set;}
         protected override void OnModelCreating(ModelBuilder builder)
