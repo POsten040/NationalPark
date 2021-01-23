@@ -6,7 +6,7 @@
 
 ## Description
 - This application was made as part of the Epicodus Coding bootcamp coursework.
-- It allows users to make api calls that return a list from a database of national parks or state parks with full CRUD functionality.
+- It allows users to make api calls that return a list from a database of national parks or state parks with full CRUD functionality, Swagger documentation, CORS, and Versioning.
 
 !["Picture of pine trees"](ReadMeAssets/pines.jpg)
 
@@ -52,6 +52,7 @@ AppSettings
 * View Swagger Docs by running the application and going to this URL: `http://localhost:5000/swagger/index.html`
   - See [Swagger](https://swagger.io/tools/swagger-ui/) for more info on using the Swagger UI
 <br>
+
 * EndPoints Structure:
   - GET /api/{component} 
     - returns all components
